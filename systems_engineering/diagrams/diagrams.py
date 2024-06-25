@@ -1,5 +1,5 @@
 """
-se-lib Version .27.0
+se-lib Version .28.0
 
 Copyright (c) 2022-2024 se-lib Development Team
 
