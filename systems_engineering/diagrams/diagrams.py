@@ -1,5 +1,5 @@
 """
-se-lib Version .28.0
+se-lib Version .28.1
 
 Copyright (c) 2022-2024 se-lib Development Team
 
@@ -27,6 +27,7 @@ import simpy
 import random
 import numpy as np
 
+global online
 online = False
 
 # text for SVG included files
