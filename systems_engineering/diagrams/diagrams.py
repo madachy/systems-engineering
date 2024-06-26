@@ -1,5 +1,5 @@
 """
-se-lib Version .28.2
+se-lib Version .28.3
 
 Copyright (c) 2022-2024 se-lib Development Team
 
@@ -12,6 +12,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 import graphviz
 import textwrap
+import fileinput
 import os
 import sys
 from os.path import exists
