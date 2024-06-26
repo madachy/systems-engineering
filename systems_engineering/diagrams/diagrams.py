@@ -1,5 +1,5 @@
 """
-se-lib Version .28.3
+se-lib Version .28.4
 
 Copyright (c) 2022-2024 se-lib Development Team
 
@@ -27,6 +27,8 @@ from copy import deepcopy
 import simpy
 import random
 import numpy as np
+
+from IPython.display import SVG, display
 
 online = False
 
