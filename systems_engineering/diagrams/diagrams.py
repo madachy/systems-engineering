@@ -1,5 +1,5 @@
 """
-se-lib Version .28.1
+se-lib Version .28.2
 
 Copyright (c) 2022-2024 se-lib Development Team
 
@@ -27,7 +27,6 @@ import simpy
 import random
 import numpy as np
 
-global online
 online = False
 
 # text for SVG included files
@@ -476,6 +475,7 @@ def fault_tree_diagram(ft, filename=None, format='svg'):
 
     """
     verbose = False
+    if 'google.colab' in str(get_ipython()): online = True
     if online and filename==None: filename="ft_temp"
     wrap_width = 15
     def wrap(text): return textwrap.fill(
